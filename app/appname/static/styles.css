@@ -1,0 +1,31 @@
+/* Login button */
+.login-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Adjust as needed for more or less rounded corners */
+    background-color: #ffffff; /* White */
+    color: #000000; /* Black */
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.login-btn:hover, .register-btn:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+/* Register button */
+.register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Adjust as needed for more or less rounded corners */
+    background-color: #6f16e4; /* Mint green */
+    color: #ffffff; /* Black */
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
